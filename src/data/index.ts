@@ -67,6 +67,9 @@ export const events: Event[] = [
     category: 'cultural',
     year: 2023,
   },
+  
+
+  
 ];
 
 export const achievements: Achievement[] = [
