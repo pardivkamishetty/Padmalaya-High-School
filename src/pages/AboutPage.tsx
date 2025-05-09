@@ -177,7 +177,7 @@ const AboutPage: React.FC = () => {
                     <div>
                       <h4 className="font-medium text-gray-800 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        123 Education Street, Hyderabad, Telangana - 500001
+                        Srinivasa Colony Park, near maisamma temple, Srinivasa Colony, Mahbubnagar, Telangana 509001
                       </p>
                     </div>
                   </div>
@@ -206,7 +206,7 @@ const AboutPage: React.FC = () => {
                 </div>
                 
                 <div className="mt-8">
-                  <h4 className="font-medium text-gray-800 mb-4">Office Hours</h4>
+                  <h4 className="font-medium text-gray-800 mb-4">School Hours</h4>
                   <div className="space-y-2 text-gray-600">
                     <div className="flex justify-between">
                       <span>Monday - Friday:</span>
@@ -227,8 +227,7 @@ const AboutPage: React.FC = () => {
             
             <div>
               <div className="bg-white shadow-md rounded-lg overflow-hidden h-full">
-                <iframe 
-                  src="https://www.google.com/maps/place/Padmalaya+High+school+(New+Branch)/@16.7513979,78.0283369,17z/data=!3m1!4b1!4m6!3m5!1s0x3bca2f5641dfeb73:0x5ee319999a1a947a!8m2!3d16.7513979!4d78.0283369!16s%2Fg%2F11fxb3m4tg?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D" 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.5076004516204!2d78.02576197461367!3d16.75140302081604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bca2f5641dfeb73%3A0x5ee319999a1a947a!2sPadmalaya%20High%20school%20(New%20Branch)!5e0!3m2!1sen!2sin!4v1746797616514!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0, minHeight: '400px' }} 
