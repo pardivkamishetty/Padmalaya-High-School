@@ -55,5 +55,5 @@ export interface RegistrationFormData {
   grade: string;
   academicYear: string;
   previousSchool?: string;
-  documents?: FileList;
+  
 }

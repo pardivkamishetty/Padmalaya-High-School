@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Check, Upload } from 'lucide-react';
+import { Check,  } from 'lucide-react';
 import { RegistrationFormData } from '../../types';
 
 const RegistrationForm: React.FC = () => {
   const { register, handleSubmit, formState: { errors } } = useForm<RegistrationFormData>();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+  
 
   const onSubmit = (data: RegistrationFormData) => {
     setIsSubmitting(true);
@@ -15,19 +15,13 @@ const RegistrationForm: React.FC = () => {
     // Simulate API call
     setTimeout(() => {
       console.log('Form submitted:', data);
-      console.log('Files:', selectedFiles);
+     
       setIsSubmitting(false);
       setIsSubmitted(true);
     }, 1500);
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files;
-    if (files) {
-      const fileArray = Array.from(files);
-      setSelectedFiles(fileArray);
-    }
-  };
+ 
 
   if (isSubmitted) {
     return (
@@ -203,50 +197,7 @@ const RegistrationForm: React.FC = () => {
           />
         </div>
 
-        {/* Document Upload */}
-        <div className="md:col-span-2">
-          <label htmlFor="documents" className="form-label">
-            Upload Documents (Birth Certificate, Previous Records, etc.)
-          </label>
-          <div className="mt-1 border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
-            <div className="flex justify-center mb-4">
-              <Upload className="h-10 w-10 text-gray-400" />
-            </div>
-            <p className="text-sm text-gray-600 mb-2">
-              Drag and drop files here, or click to select files
-            </p>
-            <p className="text-xs text-gray-500 mb-4">
-              (PDF, JPG, or PNG, max 5MB)
-            </p>
-            <input
-              id="documents"
-              type="file"
-              multiple
-              className="sr-only"
-              onChange={handleFileChange}
-              accept=".pdf,.jpg,.jpeg,.png"
-            />
-            <button
-              type="button"
-              onClick={() => document.getElementById('documents')?.click()}
-              className="btn btn-outline"
-            >
-              Select Files
-            </button>
-            {selectedFiles.length > 0 && (
-              <div className="mt-4">
-                <p className="text-sm font-medium text-gray-700 mb-2">Selected files:</p>
-                <ul className="text-sm text-gray-600">
-                  {selectedFiles.map((file, index) => (
-                    <li key={index} className="py-1">
-                      {file.name}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </div>
+        
       </div>
 
       <div className="mt-8">
