@@ -30,17 +30,7 @@ const AdmissionsPage: React.FC = () => {
                 title="Join Our Community" 
                 subtitle="We welcome students who are eager to learn and grow in a supportive environment"
               />
-              <div className="text-gray-600 space-y-4">
-                <p>
-                  Padmalaya High School offers a comprehensive educational experience that focuses on academic excellence while nurturing the overall development of every student.
-                </p>
-                <p>
-                  Our admission process is designed to identify students who will thrive in our challenging and supportive environment. We look for curious minds, creative thinkers, and young individuals with the potential to become future leaders.
-                </p>
-                <p>
-                  Explore our admission requirements and process below, and don't hesitate to contact our admissions office if you have any questions.
-                </p>
-              </div>
+             
               
               <div className="mt-8">
                 <RequirementsSection />

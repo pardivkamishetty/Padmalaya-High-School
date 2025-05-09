@@ -50,18 +50,7 @@ const RequirementsSection: React.FC = () => {
               <span>Last Date for Registration</span>
               <span className="font-medium">March 31, 2025</span>
             </div>
-            <div className="flex justify-between pb-2 border-b border-gray-100">
-              <span>Entrance Assessments</span>
-              <span className="font-medium">April 10-15, 2025</span>
-            </div>
-            <div className="flex justify-between pb-2 border-b border-gray-100">
-              <span>Results Announcement</span>
-              <span className="font-medium">April 25, 2025</span>
-            </div>
-            <div className="flex justify-between">
-              <span>Fee Payment Deadline</span>
-              <span className="font-medium">May 10, 2025</span>
-            </div>
+            
           </div>
         </div>
       </div>
