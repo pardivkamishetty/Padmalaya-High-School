@@ -34,7 +34,7 @@ export const events: Event[] = [
   {
     id: '1',
     title: 'Annual Day Celebration',
-    date: '2023-12-15',
+    date: '2024-12-15',
     
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/TRR07276.JPG?updatedAt=1746557445293',
     category: 'cultural',
@@ -43,7 +43,7 @@ export const events: Event[] = [
   {
     id: '2',
     title: 'Field Trip',
-    date: '2023-08-25',
+    date: '2024-08-25',
    
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/1000006511.jpg?updatedAt=1746556406400',
     category: 'academic',
@@ -52,7 +52,7 @@ export const events: Event[] = [
   {
     id: '3',
     title: 'Sports',
-    date: '2023-11-10',
+    date: '2024-11-10',
     
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/IMG-20241113-WA0016%20(1).jpg?updatedAt=1746556406350',
     category: 'sports',
@@ -61,13 +61,81 @@ export const events: Event[] = [
   {
     id: '4',
     title: 'Tour',
-    date: '2023-08-15',
+    date: '2024-08-15',
     
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/d76e9eb5-5afd-4381-b856-3fba56caeadc.jpg?updatedAt=1746556406691',
     category: 'cultural',
     year: 2023,
   },
-  
+  {
+    id: '5',
+    title: "Teacher's Day",
+    date: '2024-09-05',
+    imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/20220905_170430%20(1).jpg?updatedAt=1746783032542',
+    category: 'cultural',
+    year: 2023,
+    
+    
+  },
+
+  {
+    id:'6',
+    title:'Republic Day Celebration',
+    date:'2024-01-26',
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/IMG-20250126-WA0081.jpg?updatedAt=1746783538484',
+    category:'cultural',
+    year:2024,
+  },
+
+  {
+    id:'7',
+    title:'Independence Day Celebration',
+    date:'2024-08-15',
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/6cbe2d79-9c08-4ba5-9489-14b8f0d4c6e2%205%20(1).JPG?updatedAt=1746783851753',
+    category:'cultural',
+    year:2024,
+  },
+
+  {
+    id:'8',
+    title:'Sankranti Celebrations',
+    date:'2024-01-14',
+    
+   
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/IMG-20250110-WA0136.jpg?updatedAt=1746784191210',
+    category:'cultural',
+    year:2024,
+  },
+
+  {
+    id:'9',
+    title:'SriRama Navami Celebrations',
+    date:'2024-04-10',
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/IMG-20250406-WA0008.jpg?updatedAt=1746784380274',
+    category:'cultural',
+    year:2024,
+  },
+  {
+    id:'10',
+    title:'krishna Janmashtami Celebrations',
+    date:'2024-09-07',
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/PHOTO-2024-08-26-19-09-05.jpg?updatedAt=1746784607043',
+    category:'cultural',
+    year:2024,
+  },
+
+  {
+    id:'11',
+    title:'Bathukamma Celebrations',
+    date:'2024-10-01',
+    
+    imageUrl:'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/PHOTO-2024-10-03-19-16-27.jpg?updatedAt=1746784778833',
+    category:'cultural',
+    year:2024,
+  },
+ 
+
+
 
   
 ];
