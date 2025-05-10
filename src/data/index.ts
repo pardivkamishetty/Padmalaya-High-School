@@ -36,7 +36,7 @@ export const events: Event[] = [
     title: 'Annual Day Celebration',
     date: '2024-12-15',
     
-    imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/TRR07276.JPG?updatedAt=1746557445293',
+    imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/compressed_TRR06976.JPG?updatedAt=1746887316287',
     category: 'cultural',
     year: 2023,
   },
