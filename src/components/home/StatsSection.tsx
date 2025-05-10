@@ -10,7 +10,7 @@ const StatsSection: React.FC = () => {
             <div className="flex justify-center mb-4">
               <Users size={48} className="text-secondary-yellow-300" />
             </div>
-            <div className="text-4xl font-bold font-display mb-2">1200+</div>
+            <div className="text-4xl font-bold font-display mb-2">1000+</div>
             <div className="text-gray-300">Students</div>
           </div>
           
@@ -18,7 +18,7 @@ const StatsSection: React.FC = () => {
             <div className="flex justify-center mb-4">
               <Award size={48} className="text-secondary-yellow-300" />
             </div>
-            <div className="text-4xl font-bold font-display mb-2">5</div>
+            <div className="text-4xl font-bold font-display mb-2">3</div>
             <div className="text-gray-300">Awards & Recognitions</div>
           </div>
           
