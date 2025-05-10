@@ -55,10 +55,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-6 text-white">Downloads</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-secondary-yellow-300 transition-colors">School Prospectus</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-secondary-yellow-300 transition-colors">Academic Calendar</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-secondary-yellow-300 transition-colors">Holiday List</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-secondary-yellow-300 transition-colors">Fee Structure</a></li>
+
               <li><a href="#" className="text-gray-300 hover:text-secondary-yellow-300 transition-colors">Admission Form</a></li>
             </ul>
           </div>
@@ -74,6 +71,14 @@ const Footer: React.FC = () => {
               <li className="flex">
                 <Phone className="mr-3 text-secondary-yellow-400 flex-shrink-0" size={20} />
                 <span className="text-gray-300">+91 9676967638</span>
+              </li>
+               <li className="flex">
+                <Phone className="mr-3 text-secondary-yellow-400 flex-shrink-0" size={20} />
+                <span className="text-gray-300">+91 9676967681</span>
+              </li>
+               <li className="flex">
+                <Phone className="mr-3 text-secondary-yellow-400 flex-shrink-0" size={20} />
+                <span className="text-gray-300">+91 9441725960</span>
               </li>
               <li className="flex">
                 <Mail className="mr-3 text-secondary-yellow-400 flex-shrink-0" size={20} />

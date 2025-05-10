@@ -30,6 +30,18 @@ const RequirementsSection: React.FC = () => {
               <CheckCircle className="text-green-500 h-4 w-4 mr-2" />
               Aadhar card of student (photocopy)
             </li>
+            <li className="flex items-center">
+              <CheckCircle className="text-green-500 h-4 w-4 mr-2" />
+              Birth certificate (photocopy)
+            </li>
+            <li className="flex items-center">
+              <CheckCircle className="text-green-500 h-4 w-4 mr-2" />
+              Bonified certificate 
+            </li>
+            <li className="flex items-center">
+              <CheckCircle className="text-green-500 h-4 w-4 mr-2" />
+              Previous School certificates (if applicable)
+            </li>
           </ul>
         </div>
         
@@ -44,11 +56,11 @@ const RequirementsSection: React.FC = () => {
           <div className="ml-9 text-gray-700 space-y-3">
             <div className="flex justify-between pb-2 border-b border-gray-100">
               <span>Registration Opens</span>
-              <span className="font-medium">January 15, 2025</span>
+              <span className="font-medium">June 1st</span>
             </div>
             <div className="flex justify-between pb-2 border-b border-gray-100">
               <span>Last Date for Registration</span>
-              <span className="font-medium">March 31, 2025</span>
+              <span className="font-medium">August 15th</span>
             </div>
             
           </div>

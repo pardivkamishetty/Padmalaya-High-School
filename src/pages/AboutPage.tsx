@@ -186,7 +186,7 @@ const AboutPage: React.FC = () => {
                     <Phone className="text-primary-blue-600 mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-gray-800 mb-1">Phone</h4>
-                      <p className="text-gray-600">91 9441725960</p>
+                      <p className="text-gray-600">+91 9441725960</p>
                     </div>
                   </div>
                   <Phone className="text-primary-blue-600 mr-4 mt-1 flex-shrink-0" />
@@ -209,13 +209,10 @@ const AboutPage: React.FC = () => {
                   <h4 className="font-medium text-gray-800 mb-4">School Hours</h4>
                   <div className="space-y-2 text-gray-600">
                     <div className="flex justify-between">
-                      <span>Monday - Friday:</span>
-                      <span>8:00 AM - 4:00 PM</span>
+                      <span>Monday - Saturday:</span>
+                      <span>9:30 AM - 4:30 PM</span>
                     </div>
-                    <div className="flex justify-between">
-                      <span>Saturday:</span>
-                      <span>8:00 AM - 12:00 PM</span>
-                    </div>
+                    
                     <div className="flex justify-between">
                       <span>Sunday:</span>
                       <span>Closed</span>

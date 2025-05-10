@@ -49,15 +49,13 @@ const Carousel: React.FC<CarouselProps> = ({
           {/* Ensure the image is visible */}
           <img
             src={item.imageUrl || 'https://ik.imagekit.io/scmp79fg7/default-fallback-image.jpg'}
-            alt={item.title}
+           
             className="w-full h-full object-cover"
           />
 
           {/* Text Overlay */}
           <div className="absolute top-0 left-0 right-0 z-20 flex justify-center items-center h-full bg-black/30">
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-2 text-white">
-              {item.title}
-            </h2>
+           
            
           </div>
         </div>

@@ -42,7 +42,7 @@ export interface Building {
 export interface CarouselItem {
   id: string;
   imageUrl: string;
-  title: string;
+  
  
 }
 
