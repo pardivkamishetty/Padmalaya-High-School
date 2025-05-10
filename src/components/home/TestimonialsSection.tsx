@@ -6,14 +6,9 @@ const testimonials = [
     id: 1,
     quote: "Padmalaya High School provided my child with a perfect balance of academics and extracurricular activities. The teachers are incredibly supportive and dedicated to student success.",
       },
+ 
   {
     id: 2,
-    quote: "As an alumnus, I can confidently say that the values and education I received at Padmalaya shaped my future positively. The school's emphasis on character building alongside academics is commendable.",
-    
-    
-  },
-  {
-    id: 3,
     quote: "The infrastructure and teaching methodology at Padmalaya are exceptional. My daughter loves going to school every day, which is a testament to the positive environment they've created.",
     
     

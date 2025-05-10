@@ -14,19 +14,19 @@ export const carouselItems: CarouselItem[] = [
     id: '1',
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/2%20SCHOOL%20BUILDING%20PHOTOS/upcoming%20IIT%20block.jpg?updatedAt=1746513020076',
     title: 'Welcome to Padmalaya High School',
-    subtitle: 'Building futures through quality education since 2001',
+   
   },
   {
     id: '2',
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/4%20acadamic%20achievements/3.2.jpg?updatedAt=1746513010348',
     title: 'State-of-the-Art Facilities',
-    subtitle: 'Modern classrooms, labs, and sports facilities',
+   
   },
   {
     id: '3',
     imageUrl: 'https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/4%20acadamic%20achievements/IMG-20181228-WA0046.jpg?updatedAt=1746515904817',
     title: 'Holistic Development',
-    subtitle: 'Focus on academics, sports, and extracurricular activities',
+    
   },
 ];
 

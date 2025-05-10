@@ -38,7 +38,7 @@ const EventsGallery: React.FC = () => {
                   year: 'numeric'
                 })}</span>
               </div>
-              <p className="text-gray-600 mb-4">{event.description}</p>
+              
               <span className="inline-block px-3 py-1 bg-primary-blue-100 text-primary-blue-800 rounded-full text-xs font-medium">
                 {event.category.charAt(0).toUpperCase() + event.category.slice(1)}
               </span>

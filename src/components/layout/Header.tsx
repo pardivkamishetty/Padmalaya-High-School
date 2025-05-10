@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                 to={item.path}
                 className={`nav-link ${
                   isActive(item.path) 
-                    ? 'nav-link-active' 
+                     ? 'text-black font-bold underline underline-offset-4 decoration-2'
                     : isScrolled 
                       ? 'text-gray-700' 
                       : 'text-white hover:text-secondary-yellow-300'

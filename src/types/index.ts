@@ -43,7 +43,7 @@ export interface CarouselItem {
   id: string;
   imageUrl: string;
   title: string;
-  subtitle?: string;
+ 
 }
 
 export interface RegistrationFormData {

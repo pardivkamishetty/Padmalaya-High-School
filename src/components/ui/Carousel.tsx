@@ -54,15 +54,11 @@ const Carousel: React.FC<CarouselProps> = ({
           />
 
           {/* Text Overlay */}
-          <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center text-white">
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 text-white">
+          <div className="absolute top-0 left-0 right-0 z-20 flex justify-center items-center h-full bg-black/30">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-2 text-white">
               {item.title}
             </h2>
-            {item.subtitle && (
-              <p className="text-lg md:text-xl opacity-90 mb-8 text-white">
-                {item.subtitle}
-              </p>
-            )}
+           
           </div>
         </div>
       ))}
