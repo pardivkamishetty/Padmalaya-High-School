@@ -210,19 +210,13 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-center space-x-4">
                 <img
-                  src="https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/Screenshot%202025-05-10%20165026.png?updatedAt=1746876169112"
-                  alt="Gali Sujan Reddy"
+                  src="https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/WhatsApp%20Image%202025-06-02%20at%2021.07.51_a2c03fbc.jpg?updatedAt=1749102383046"
+                  alt="InnovaTech Developers"
                   className="w-12 h-12 rounded-full object-cover border-2 border-yellow-400"
                 />
-                <span className="text-gray-300 font-medium">Gali Sujan Reddy</span>
-              </li>
-              <li className="flex items-center space-x-4">
-                <img
-                  src="https://ik.imagekit.io/scmp79fg7/SCHOOL%20WEBSITE%20PHOTOS%20(2)/SCHOOL%20WEBSITE%20PHOTOS/WhatsApp%20Image%202025-05-10%20at%2016.54.59_ca6d878d.jpg?updatedAt=1746876358685"
-                  alt="Kamishetty Pardiv"
-                  className="w-12 h-12 rounded-full object-cover border-2 border-yellow-400"
-                />
-                <span className="text-gray-300 font-medium">Kamishetty Pardiv</span>
+                <span className="text-gray-300 font-medium">InnovaTech Developers</span>
+              
+               
               </li>
             </ul>
           </div>
